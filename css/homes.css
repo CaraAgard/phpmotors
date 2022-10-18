@@ -1,0 +1,261 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  
+}
+
+
+   
+   /* For vehicle display in classification view */
+       #inv-display {
+           flex-flow: row wrap;
+           justify-content: flex-start;
+       }
+   
+       #inv-display h2{
+           font-size: 1rem;
+       }
+   
+       #inv-display li {
+           max-width: 200px;
+           flex: 1 0 auto;
+           text-align: center;
+           height: 250px;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+       }
+         
+       #inv-display div {
+           width: 100%;
+       }
+       input:required:invalid, input:focus:invalid {
+        /* insert your own styles for invalid form input */
+        background-color: lightcoral;
+       }
+    input:required:valid {
+        /* insert your own styles for valid form input */
+        background-color: lightgreen;
+       }
+ul {
+    align-items: center;
+    display:flex;
+    list-style:none;
+    padding: 20px;
+    margin:auto;
+}
+li {
+    margin: 10px;
+    
+}
+nav ul{
+    height: 20px;
+    background-color: #3a3a3a;
+
+    
+}
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+    
+    
+}
+footer {
+    text-align: center;
+    
+}
+.flux {
+    height: 30px;
+    background-color: #a6cbeb;
+    width: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+.border {
+    border-style: solid; 
+    border-color: #4c96d7; 
+    border-width: 5px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2rem;
+    
+}
+
+html {
+    background-image: url("/phpmotors/images/photos/checkerboard.jpg");
+    display: block;
+}
+.account {
+    color: #3a3a3a;
+    padding-top: 10px;
+    padding-right: 10px;
+    float: right;
+    text-decoration: none;
+}
+.classic {
+    background-color: #4c96d7; 
+    margin: 10px;
+    margin-top: 11px;
+    padding-top: 20px;
+    height: 40px;
+}
+.classic_color {
+    color: #3a3a3a;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+aside h2 {
+    color: #4c96d7;
+}
+aside p {
+    color: #4c96d7;
+}
+aside {
+    height: 250px;
+}
+.own {
+    background-color: #4c96d7;
+    font-size: 2.5em;
+    margin: 30px;
+    padding: 0px 50px;
+    margin-left: 6em;
+}
+
+.upgrades {
+    width: 50%;
+     
+}
+
+.option {
+    background-color: #4c96d7;
+    width: 38%;
+    height: 130px;
+   margin: .10rem;
+    text-align: center;
+    
+}
+.option p {
+    margin: 0;
+    padding: 0;
+}
+
+.car {
+    background-size: 300px;
+    height: 300px;
+    margin-top: -100px;
+}
+.stuff {
+    display: flex;
+    width: 100%
+}
+.middle {
+    margin-left: 200px;
+    
+
+}
+
+  
+#inv-display div {
+    width: 100%;
+}
+
+.blue {
+    width: 50%;
+    height: 5.5rem;
+    padding: 0%;
+    margin: 0;
+    text-align: center;
+   
+ 
+}
+.select {
+    display: flex;
+    flex-wrap: wrap;    
+}
+.blue img {
+    margin-top: .5rem;
+}
+.color {
+    color: black;
+}
+html{
+    box-sizing: border-box;
+   }
+   
+   *, *:before, *:after{
+    box-sizing: inherit;
+   
+   }
+
+   #inv-display{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+   }
+   
+   #inv-display li{
+    margin-bottom: .5em;
+    border: 5px #ccc solid;
+    list-style-type: none;
+    flex: 1 1 auto;
+    
+   }
+   
+   #inv-display li img {
+       max-width: 100%;
+       text-align: center;
+     
+       
+   }
+   img {
+       width: 50%;
+   }
+   #logo {
+       width: 25%;
+   }
+
+@media (min-width: 600px) {
+    .border {
+        border-style: solid; 
+        border-color: #4c96d7; 
+        border-width: 5px;
+        background-color: white;
+        border-radius: 10px;
+        margin: 2rem;
+        
+        
+    }
+    body {
+        width: 100%;
+    }
+    html {
+        background-image: url("/phpmotors/images/photos/checkerboard.jpg");
+        display: block;
+    }
+    footer {
+        background-color: #ffffff;
+        
+        border: solid #4c96d7 5px; 
+        border-radius: 10px;
+        margin: 2rem;
+        margin-top: -53px;
+    }
+    h4 {
+        float: right;
+        flex-direction: column;
+        width: 50%;
+        margin-top: -50px;
+    }
+    h2, h3, span {
+        margin-left: 20px;
+    }
+    img {
+        width: 100%;
+    }
+    #logo {
+        width: 25%;
+    }
+    
+
+}
